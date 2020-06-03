@@ -31,6 +31,8 @@ jobs:
       - run:
           name: Test Code
           command: docker run app:build test
+      - store_test_results:
+          path: tests
 
 workflows:
   main:
