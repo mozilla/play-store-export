@@ -1,5 +1,7 @@
 # Play Store Export
 
+#### This repo has been moved to the docker-etl repo at https://github.com/mozilla/docker-etl/tree/main/jobs/play-store-export
+
 This Play Store export is a job to schedule backfills of Play Store data to BigQuery via the BigQuery Data Transfer service.
 
 The purpose of this job is to be scheduled to run regularly in order to continuously backfill past days over time.
